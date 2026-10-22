@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="wineRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#941B32"/>
+      <stop offset="60%" stop-color="#6E0E21"/>
+      <stop offset="100%" stop-color="#460714"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2BF"/>
+      <stop offset="35%" stop-color="#DFB143"/>
+      <stop offset="70%" stop-color="#B27E16"/>
+      <stop offset="100%" stop-color="#F2D179"/>
+    </linearGradient>
+    <filter id="glow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#460714" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(250, 250)" filter="url(#glow2)">
+    <!-- Outer ornate laced ring -->
+    <circle r="230" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle r="218" fill="none" stroke="url(#wineRed)" stroke-width="2"/>
+    <circle r="210" fill="none" stroke="url(#goldGrad)" stroke-width="1"/>
+
+    <g id="petals">
+      
+      <g transform="rotate(0)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(30)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(60)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(90)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(120)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(150)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(180)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(210)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(240)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(270)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(300)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+      <g transform="rotate(330)">
+        <!-- Badam / Almond paisley teardrop -->
+        <path d="M 0 -210 C 22 -190 28 -160 12 -135 C 0 -115 0 -115 0 -115 C 0 -115 0 -115 -12 -135 C -28 -160 -22 -190 0 -210 Z" 
+              fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="1.4"/>
+        <!-- Inner floral pip -->
+        <circle cx="0" cy="-160" r="4.5" fill="url(#goldGrad)"/>
+        <!-- Golden vine curve -->
+        <path d="M 0 -210 C 18 -225 32 -210 20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+        <path d="M 0 -210 C -18 -225 -32 -210 -20 -195" fill="none" stroke="url(#goldGrad)" stroke-width="1.3"/>
+      </g>
+    </g>
+
+    <circle r="120" fill="none" stroke="url(#wineRed)" stroke-width="2"/>
+    <circle r="114" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+    <g id="innerPetals">
+      
+      <g transform="rotate(15)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(45)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(75)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(105)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(135)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(165)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(195)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(225)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(255)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(285)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(315)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+      <g transform="rotate(345)">
+        <path d="M 0 -110 C 14 -95 14 -70 0 -55 C -14 -70 -14 -95 0 -110 Z" 
+              fill="url(#goldGrad)" opacity="0.95"/>
+        <circle cx="0" cy="-80" r="2.5" fill="#6A0F20"/>
+      </g>
+    </g>
+
+    <circle r="52" fill="url(#wineRed)" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle r="36" fill="url(#goldGrad)"/>
+    <circle r="18" fill="#6E0E21"/>
+    <circle r="8" fill="#FFF2BF"/>
+  </g>
+</svg>

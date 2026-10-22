@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+  <defs>
+    <linearGradient id="pomWine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A51F39"/>
+      <stop offset="50%" stop-color="#7B1226"/>
+      <stop offset="100%" stop-color="#4A0713"/>
+    </linearGradient>
+    <linearGradient id="pomGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA0"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9C6F12"/>
+    </linearGradient>
+    <linearGradient id="leafGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D6B4E"/>
+      <stop offset="100%" stop-color="#1E3827"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(150, 60)">
+    <!-- Central Pomegranate (Анор) -->
+    <!-- Crown calyx -->
+    <path d="M -12 -34 L -18 -46 L -7 -40 L 0 -48 L 7 -40 L 18 -46 L 12 -34 Z" fill="url(#pomGold)"/>
+    <!-- Fruit body -->
+    <ellipse cx="0" cy="-6" rx="32" ry="30" fill="url(#pomWine)" stroke="url(#pomGold)" stroke-width="2"/>
+    <!-- Glistening seed pattern on pomegranate -->
+    <circle cx="-10" cy="-12" r="3.5" fill="url(#pomGold)"/>
+    <circle cx="6" cy="-16" r="3" fill="url(#pomGold)"/>
+    <circle cx="12" cy="-4" r="3.5" fill="url(#pomGold)"/>
+    <circle cx="-6" cy="4" r="4" fill="url(#pomGold)"/>
+    <circle cx="8" cy="10" r="3" fill="url(#pomGold)"/>
+
+    <!-- Left Floral Vine Branch -->
+    <path d="M -32 -6 C -70 -20 -100 15 -140 -5" fill="none" stroke="url(#pomGold)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M -75 -4 C -85 -22 -105 -20 -100 -5 C -95 10 -75 -4 -75 -4 Z" fill="url(#pomWine)" stroke="url(#pomGold)" stroke-width="1.2"/>
+    <circle cx="-135" cy="-5" r="4" fill="url(#pomGold)"/>
+    <!-- Small bud -->
+    <circle cx="-60" cy="-18" r="5" fill="url(#pomWine)" stroke="url(#pomGold)" stroke-width="1"/>
+
+    <!-- Right Floral Vine Branch -->
+    <path d="M 32 -6 C 70 -20 100 15 140 -5" fill="none" stroke="url(#pomGold)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 75 -4 C 85 -22 105 -20 100 -5 C 95 10 75 -4 75 -4 Z" fill="url(#pomWine)" stroke="url(#pomGold)" stroke-width="1.2"/>
+    <circle cx="135" cy="-5" r="4" fill="url(#pomGold)"/>
+    <circle cx="60" cy="-18" r="5" fill="url(#pomWine)" stroke="url(#pomGold)" stroke-width="1"/>
+  </g>
+</svg>

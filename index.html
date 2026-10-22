@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Свадебное приглашение | Парвиз и Самира</title>
+  <meta name="description" content="Приглашение на свадебное торжество Парвиза и Самиры | 29 октября 2026">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
+
+  <!-- Google Fonts: Luxury, Highly Readable Cyrillic Serif & Modern Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Sparkles / Golden Dust Canvas -->
+  <canvas id="sparklesCanvas"></canvas>
+
+  <!-- Floating Music Toggle Button -->
+  <button id="musicToggle" class="music-toggle" aria-label="Включить музыку" title="Музыка">
+    <div class="music-disc">
+      <svg class="music-note-icon" viewBox="0 0 24 24" width="22" height="22">
+        <path fill="currentColor" d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+      </svg>
+      <div class="sound-wave">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </button>
+
+  <!-- Main Luxury Container (Mobile-First Frame) -->
+  <main class="invitation-wrapper">
+
+    <!-- ========================================== -->
+    <!-- ЭКРАН 1: ОБЛОЖКА (HERO COVER)              -->
+    <!-- ========================================== -->
+    <section class="story-screen screen-cover" id="screen-cover">
+      <div class="photo-container hero-photo">
+        <img id="coverPhoto" src="assets/images/parviz_samira_1.jpg" alt="Парвиз и Самира" class="main-portrait-img">
+        <div class="photo-overlay-top"></div>
+        <div class="photo-overlay-bottom"></div>
+        
+        <!-- Tajik Suzani Medallion Badge -->
+        <div class="ornament-floating-badge">
+          <img src="assets/ornaments/tajik_medallion.svg" alt="Орнамент" class="badge-medallion spin-very-slow">
+        </div>
+      </div>
+
+      <!-- Golden Wave Divider Under Photo -->
+      <div class="wave-divider-wrapper">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+
+      <!-- Bottom Card with Couple Names -->
+      <div class="screen-content card-bottom-arc reveal-on-scroll">
+        <div class="wedding-tag-pill">29 ОКТЯБРЯ 2026</div>
+        <h1 class="main-couple-title" id="coupleTitleDisplay">Парвиз & Самира</h1>
+        <p class="celebration-subtitle" id="celebrationTypeDisplay">СВАДЕБНОЕ ТОРЖЕСТВО</p>
+        
+        <div class="scroll-down-hint">
+          <span>Листайте вниз</span>
+          <div class="arrow-down-bounce">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M7 10l5 5 5-5"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- ЕДИНЫЙ БЛОК: ПРИГЛАШЕНИЕ И ИМЕНА МОЛОДЫХ   -->
+    <!-- ========================================== -->
+    <section class="story-screen screen-invitation-unified" id="screen-invitation">
+      <!-- Top Golden Wave -->
+      <div class="wave-divider-wrapper wave-top">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg flipped-wave wave-shimmer">
+      </div>
+
+      <!-- Traditional Tajik Suzani Medallion in Top Right Corner -->
+      <div class="corner-ornament top-right reveal-on-scroll">
+        <img src="assets/ornaments/tajik_medallion.svg" alt="Таджикский орнамент" class="medallion-img spin-slow">
+      </div>
+
+      <div class="screen-content unified-invitation-content">
+        <!-- Pomegranate Branch Motif (Symbol of Barakat & Love) -->
+        <div class="motif-wrapper reveal-on-scroll">
+          <img src="assets/ornaments/pomegranate_branch.svg" alt="Гранат" class="pomegranate-icon">
+        </div>
+
+        <!-- 1. Дорогие гости! -->
+        <h2 class="section-readable-heading reveal-on-scroll delay-1" id="greetingTitleDisplay">Дорогие гости!</h2>
+        
+        <!-- 2. ДОРОГИЕ И УВАЖАЕМЫЕ РОДНЫЕ И БЛИЗКИЕ! -->
+        <div class="royal-text-block reveal-on-scroll delay-1">
+          <p class="caps-lead">ДОРОГИЕ И УВАЖАЕМЫЕ</p>
+          <p class="caps-bold">РОДНЫЕ И БЛИЗКИЕ!</p>
+        </div>
+
+        <!-- 3. Пионы и розы + Золотая волна -->
+        <div class="mid-floral-ribbon reveal-on-scroll delay-2">
+          <div class="mid-peonies-wrap">
+            <img src="assets/images/peonies_bouquet.jpg" alt="Пионы и розы" class="peonies-img flower-breathe">
+          </div>
+          <div class="wave-divider-wrapper wave-inline">
+            <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+          </div>
+        </div>
+
+        <!-- 4. С ИСКРЕННЕЙ РАДОСТЬЮ В СЕРДЦАХ... -->
+        <p class="invitation-intro reveal-on-scroll delay-2" id="invitationMainText">
+          С ИСКРЕННЕЙ РАДОСТЬЮ В СЕРДЦАХ<br>
+          ПРИГЛАШАЕМ ВАС РАЗДЕЛИТЬ С НАМИ<br>
+          САМЫЙ СЧАСТЛИВЫЙ ДЕНЬ СОЗДАНИЯ НАШЕЙ СЕМЬИ!
+        </p>
+
+        <!-- 5. Парвиз & Самира -->
+        <div class="couple-names-wrap reveal-on-scroll delay-3">
+          <h2 class="names-readable-display" id="coupleNamesDisplay">Парвиз & Самира</h2>
+          <!-- 6. Разделитель -->
+          <div class="ornament-divider">
+            <img src="assets/ornaments/gold_divider.svg" alt="Разделитель" class="divider-svg">
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Bottom Couple Photo with Wave -->
+      <div class="wave-divider-wrapper wave-middle">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+      <div class="bottom-photo-frame reveal-on-scroll delay-2">
+        <img id="coupleStoryPhoto" src="assets/images/parviz_samira_2.jpg" alt="Парвиз и Самира" class="framed-photo-img">
+      </div>
+
+      <!-- Bottom Golden Wave -->
+      <div class="wave-divider-wrapper wave-bottom">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- ЭКРАН 4: ТОРЖЕСТВО, ДАТА И КАЛЕНДАРЬ       -->
+    <!-- ========================================== -->
+    <section class="story-screen screen-date" id="screen-date">
+      <!-- Top Wave Divider -->
+      <div class="wave-divider-wrapper wave-top">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg flipped-wave wave-shimmer">
+      </div>
+
+      <div class="screen-content date-calendar-content">
+        <h2 class="section-readable-heading reveal-on-scroll" id="ceremonyTitle">Торжество</h2>
+        
+        <div class="date-big-badge reveal-on-scroll delay-1">
+          <p class="wedding-date-string" id="dateTextDisplay">29 ОКТЯБРЯ 2026 ГОДА</p>
+          <p class="wedding-time-string" id="timeTextDisplay">СБОР ГОСТЕЙ В 17:30</p>
+        </div>
+
+        <!-- Interactive Monthly Calendar -->
+        <div class="calendar-card reveal-on-scroll delay-2">
+          <div class="calendar-header-month">
+            <span id="calendarMonthName">ОКТЯБРЬ 2026</span>
+          </div>
+
+          <div class="calendar-grid-weekdays">
+            <span>ПН</span><span>ВТ</span><span>СР</span><span>ЧТ</span><span>ПТ</span><span>СБ</span><span>ВС</span>
+          </div>
+
+          <div class="calendar-grid-days" id="calendarDaysGrid">
+            <!-- Rendered automatically by script.js -->
+          </div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-container reveal-on-scroll delay-3">
+          <p class="countdown-title">ДО СВАДЬБЫ ОСТАЛОСЬ:</p>
+          <div class="timer-boxes">
+            <div class="timer-box">
+              <span class="timer-num" id="timerDays">00</span>
+              <span class="timer-label">дней</span>
+            </div>
+            <div class="timer-colon">:</div>
+            <div class="timer-box">
+              <span class="timer-num" id="timerHours">00</span>
+              <span class="timer-label">часов</span>
+            </div>
+            <div class="timer-colon">:</div>
+            <div class="timer-box">
+              <span class="timer-num" id="timerMinutes">00</span>
+              <span class="timer-label">минут</span>
+            </div>
+            <div class="timer-colon">:</div>
+            <div class="timer-box">
+              <span class="timer-num" id="timerSeconds">00</span>
+              <span class="timer-label">секунд</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Traditional Suzani Rosette (Variation 2) at Bottom Left -->
+      <div class="corner-ornament bottom-left reveal-on-scroll">
+        <img src="assets/ornaments/tajik_rosette_2.svg" alt="Орнамент" class="medallion-img spin-slow">
+      </div>
+
+      <!-- Bottom Wave -->
+      <div class="wave-divider-wrapper wave-bottom">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- ЭКРАН 5: ПРОГРАММА / РАСПИСАНИЕ ДНЯ       -->
+    <!-- ========================================== -->
+    <section class="story-screen screen-schedule" id="screen-schedule">
+      <!-- Top Wave Divider -->
+      <div class="wave-divider-wrapper wave-top">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg flipped-wave wave-shimmer">
+      </div>
+
+      <div class="screen-content schedule-content">
+        <div class="motif-wrapper reveal-on-scroll">
+          <img src="assets/ornaments/pomegranate_branch.svg" alt="Орнамент" class="pomegranate-icon">
+        </div>
+
+        <h2 class="section-readable-heading reveal-on-scroll delay-1">Программа дня</h2>
+        <p class="schedule-subtitle reveal-on-scroll delay-1">Расписание праздничного вечера</p>
+
+        <!-- Vertical Wedding Timeline (without emojis, elegant cards with staggered scroll animation) -->
+        <div class="timeline-container" id="timelineContainer">
+          
+          <div class="timeline-item timeline-stagger reveal-timeline">
+            <div class="timeline-time-col">
+              <span class="timeline-badge">17:30</span>
+            </div>
+            <div class="timeline-connector">
+              <div class="timeline-node"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-info-card">
+              <h3 class="timeline-title">Сбор гостей</h3>
+              <p class="timeline-desc">Приветственные напитки, фотозона и тёплые встречи</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-stagger reveal-timeline">
+            <div class="timeline-time-col">
+              <span class="timeline-badge">18:00</span>
+            </div>
+            <div class="timeline-connector">
+              <div class="timeline-node"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-info-card">
+              <h3 class="timeline-title">Праздничный ужин</h3>
+              <p class="timeline-desc">Начало банкета, изысканные угощения и поздравления</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-stagger reveal-timeline">
+            <div class="timeline-time-col">
+              <span class="timeline-badge">18:30</span>
+            </div>
+            <div class="timeline-connector">
+              <div class="timeline-node"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-info-card">
+              <h3 class="timeline-title">Встреча молодых</h3>
+              <p class="timeline-desc">Торжественный выход жениха и невесты</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-stagger reveal-timeline">
+            <div class="timeline-time-col">
+              <span class="timeline-badge">19:00</span>
+            </div>
+            <div class="timeline-connector">
+              <div class="timeline-node"></div>
+            </div>
+            <div class="timeline-info-card">
+              <h3 class="timeline-title">Танцы и веселье</h3>
+              <p class="timeline-desc">Первый танец молодых, музыкальная программа и танцы</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Atmospheric Night Photo with Cake & Sparklers -->
+      <div class="wave-divider-wrapper wave-middle">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+      <div class="bottom-photo-frame cake-frame reveal-on-scroll delay-2">
+        <img id="cakeNightPhoto" src="assets/images/parviz_samira_cake.jpg" alt="Праздничный вечер" class="framed-photo-img">
+      </div>
+
+      <div class="wave-divider-wrapper wave-bottom">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- ЭКРАН 6: МЕСТО ПРОВЕДЕНИЯ, КАРТА И АНКЕТА   -->
+    <!-- ========================================== -->
+    <section class="story-screen screen-venue" id="screen-venue">
+      <!-- Top Left Traditional Medallion -->
+      <div class="corner-ornament top-left reveal-on-scroll">
+        <img src="assets/ornaments/tajik_medallion.svg" alt="Орнамент" class="medallion-img spin-slow">
+      </div>
+
+      <div class="screen-content venue-content">
+        <!-- Animated Map Pin -->
+        <div class="venue-pin-wrap reveal-on-scroll">
+          <img src="assets/ornaments/map_pin.svg" alt="Локация" class="map-pin-icon pin-bounce">
+        </div>
+
+        <div class="venue-text-block reveal-on-scroll delay-1">
+          <h2 class="venue-name" id="venueNameDisplay">Ресторан «Летний дворец»</h2>
+          <p class="venue-address" id="venueAddressDisplay">
+            Ростовская область, Мясниковский район,<br>
+            село Чалтырь, Ростовская улица, дом 104
+          </p>
+        </div>
+
+        <!-- Action Buttons: YANDEX MAPS & CALENDAR -->
+        <div class="venue-buttons-wrap reveal-on-scroll delay-2">
+          <a href="https://yandex.ru/maps/?rtext=~47.275667%2C39.525007&rtt=auto" 
+             id="mapBtn" class="gold-btn yandex-map-btn" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="20" height="20" class="btn-icon yandex-icon">
+              <!-- Route / Navigation Arrow Icon -->
+              <path fill="currentColor" d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+            </svg>
+            <span>Проложить маршрут</span>
+          </a>
+
+          <button id="calendarAddBtn" class="gold-btn-outline calendar-btn">
+            <svg viewBox="0 0 24 24" width="18" height="18" class="btn-icon">
+              <path fill="currentColor" d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 002 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zm-7 5h5v5h-5z"/>
+            </svg>
+            <span>Добавить в календарь</span>
+          </button>
+        </div>
+
+        <div class="ornament-divider reveal-on-scroll delay-2">
+          <img src="assets/ornaments/gold_divider.svg" alt="Разделитель" class="divider-svg">
+        </div>
+
+        <div class="warm-wishes-block reveal-on-scroll delay-2">
+          <p class="calligraphy-wish" id="blessingTextDisplay">Будем счастливы разделить этот радостный день вместе с вами!</p>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- ИНЛАЙН-АНКЕТА ГОСТЯ (RSVP С ЗАПИСЬЮ)       -->
+        <!-- ========================================== -->
+        <div class="inline-rsvp-card reveal-on-scroll delay-3" id="inlineRsvpSection">
+          <div class="rsvp-card-header">
+            <img src="assets/ornaments/tajik_medallion.svg" alt="Орнамент" class="survey-medallion spin-slow">
+            <h3 class="survey-title">Подтверждение присутствия</h3>
+          </div>
+
+          <form id="inlineRsvpForm" class="inline-rsvp-form">
+            <!-- Имя гостя -->
+            <div class="survey-field">
+              <label for="guestName">Ваше имя и фамилия:</label>
+              <input type="text" id="guestName" name="name" placeholder="Имя Фамилия" required autocomplete="name">
+            </div>
+
+            <!-- Присутствие -->
+            <div class="survey-field">
+              <label>Планируете ли вы присутствовать?</label>
+              <div class="attendance-toggle">
+                <label class="toggle-option">
+                  <input type="radio" name="attendance" value="Буду" checked>
+                  <span class="toggle-box">С радостью приду</span>
+                </label>
+                <label class="toggle-option">
+                  <input type="radio" name="attendance" value="Не смогу">
+                  <span class="toggle-box">К сожалению, не смогу</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Количество гостей с кнопками +- -->
+            <div class="survey-field" id="guestsCountField">
+              <label>Количество гостей (включая вас):</label>
+              <div class="counter-wrapper">
+                <button type="button" class="btn-stepper minus-btn" id="btnMinus" aria-label="Уменьшить">−</button>
+                <div class="counter-display">
+                  <span id="guestsCountDisplay" class="counter-number">1</span>
+                  <span class="counter-unit">чел.</span>
+                </div>
+                <button type="button" class="btn-stepper plus-btn" id="btnPlus" aria-label="Увеличить">+</button>
+                <input type="hidden" name="guests_count" id="inlineGuestsCountInput" value="1">
+              </div>
+            </div>
+
+            <!-- Кнопка отправки анкеты -->
+            <button type="submit" id="submitSurveyBtn" class="gold-btn survey-submit-btn">
+              <span>Отправить ответ</span>
+            </button>
+
+            <!-- Сообщение об успешной отправке -->
+            <div id="surveySuccessAlert" class="survey-success-state" style="display: none;">
+              <div class="success-icon-wrap">
+                <svg viewBox="0 0 24 24" width="34" height="34" fill="#D4AF37">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <h4 class="success-title">Спасибо за ваш ответ!</h4>
+              <p class="success-text" id="successTextDesc">Ваше подтверждение успешно отправлено. Будем бесконечно рады видеть вас на нашем празднике!</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom Peonies & Golden Wave -->
+      <div class="floral-bottom-container reveal-on-scroll">
+        <img src="assets/images/peonies_bouquet.jpg" alt="Пионы" class="peonies-img flower-breathe">
+      </div>
+      <div class="wave-divider-wrapper wave-bottom">
+        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Audio Element -->
+  <audio id="weddingAudio" src="assets/audio/wedding_music.mp3" loop preload="auto"></audio>
+
+  <!-- Scripts -->
+  <script src="wedding-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
