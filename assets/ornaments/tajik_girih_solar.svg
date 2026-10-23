@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="girGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D6"/>
+      <stop offset="30%" stop-color="#DFB143"/>
+      <stop offset="70%" stop-color="#B6831B"/>
+      <stop offset="100%" stop-color="#F2D179"/>
+    </linearGradient>
+    <linearGradient id="girWine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#921932"/>
+      <stop offset="50%" stop-color="#6B0D1F"/>
+      <stop offset="100%" stop-color="#420512"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(200, 200)">
+    <circle r="190" fill="none" stroke="url(#girGold)" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <circle r="175" fill="none" stroke="url(#girWine)" stroke-width="2"/>
+    
+    <g id="girihPoints">
+      
+      <g transform="rotate(0)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(45)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(90)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(135)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(180)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(225)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(270)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+      <g transform="rotate(315)">
+        <polygon points="0,-160 30,-120 0,-80 -30,-120" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="1.5"/>
+        <circle cx="0" cy="-120" r="4" fill="url(#girGold)"/>
+        <line x1="0" y1="-160" x2="0" y2="-185" stroke="url(#girGold)" stroke-width="2"/>
+        <circle cx="0" cy="-188" r="3" fill="#FFE89E"/>
+      </g>
+    </g>
+
+    <!-- Interlocking 8-point Octagram Star in center -->
+    <g id="centerOctagram">
+      <rect x="-65" y="-65" width="130" height="130" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="2" transform="rotate(0)"/>
+      <rect x="-65" y="-65" width="130" height="130" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="2" transform="rotate(45)"/>
+    </g>
+
+    <circle r="45" fill="url(#girWine)" stroke="url(#girGold)" stroke-width="2"/>
+    <circle r="25" fill="url(#girGold)"/>
+    <circle r="12" fill="#6B0D1F"/>
+    <circle r="5" fill="#FFF8D6"/>
+  </g>
+</svg>

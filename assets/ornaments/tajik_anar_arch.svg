@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="archWine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9C1A33"/>
+      <stop offset="50%" stop-color="#720F23"/>
+      <stop offset="100%" stop-color="#420612"/>
+    </linearGradient>
+    <linearGradient id="archGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6D1"/>
+      <stop offset="35%" stop-color="#DFB143"/>
+      <stop offset="75%" stop-color="#B27E16"/>
+      <stop offset="100%" stop-color="#F2D179"/>
+    </linearGradient>
+    <filter id="archShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#460714" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#archShadow)">
+    <!-- Ornate Arch / Medallion Panel -->
+    <path d="M 50 340 L 50 150 C 50 60 160 20 300 20 C 440 20 550 60 550 150 L 550 340" 
+          fill="none" stroke="url(#archGold)" stroke-width="2.5"/>
+    <path d="M 64 340 L 64 154 C 64 74 168 34 300 34 C 432 34 536 74 536 154 L 536 340" 
+          fill="none" stroke="url(#archWine)" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+    <!-- Central Pomegranate Emblem (Анор) -->
+    <g transform="translate(300, 175)">
+      <!-- Twin branch scrolls -->
+      <path d="M 0 0 C -70 -40 -150 -10 -180 -70 C -150 -100 -80 -70 0 -40" fill="none" stroke="url(#archGold)" stroke-width="2"/>
+      <path d="M 0 0 C 70 -40 150 -10 180 -70 C 150 -100 80 -70 0 -40" fill="none" stroke="url(#archGold)" stroke-width="2"/>
+      
+      <!-- Left side pomegranate -->
+      <g transform="translate(-140, -65) scale(0.65)">
+        <path d="M -8 -30 L -14 -42 L -5 -36 L 0 -44 L 5 -36 L 14 -42 L 8 -30 Z" fill="url(#archGold)"/>
+        <ellipse cx="0" cy="0" rx="34" ry="32" fill="url(#archWine)" stroke="url(#archGold)" stroke-width="2.5"/>
+        <circle cx="-10" cy="-6" r="4" fill="url(#archGold)"/>
+        <circle cx="10" cy="-6" r="4" fill="url(#archGold)"/>
+        <circle cx="0" cy="10" r="5" fill="#FFF5CC"/>
+      </g>
+
+      <!-- Right side pomegranate -->
+      <g transform="translate(140, -65) scale(0.65)">
+        <path d="M -8 -30 L -14 -42 L -5 -36 L 0 -44 L 5 -36 L 14 -42 L 8 -30 Z" fill="url(#archGold)"/>
+        <ellipse cx="0" cy="0" rx="34" ry="32" fill="url(#archWine)" stroke="url(#archGold)" stroke-width="2.5"/>
+        <circle cx="-10" cy="-6" r="4" fill="url(#archGold)"/>
+        <circle cx="10" cy="-6" r="4" fill="url(#archGold)"/>
+        <circle cx="0" cy="10" r="5" fill="#FFF5CC"/>
+      </g>
+
+      <!-- Central Grand Pomegranate -->
+      <path d="M -12 -54 L -18 -68 L -7 -60 L 0 -70 L 7 -60 L 18 -68 L 12 -54 Z" fill="url(#archGold)"/>
+      <ellipse cx="0" cy="-10" rx="52" ry="48" fill="url(#archWine)" stroke="url(#archGold)" stroke-width="2.8"/>
+      
+      <!-- Gold seeds inside center pomegranate -->
+      <circle cx="-16" cy="-22" r="5" fill="url(#archGold)"/>
+      <circle cx="16" cy="-22" r="5" fill="url(#archGold)"/>
+      <circle cx="0" cy="-12" r="6" fill="#FFF8E0"/>
+      <circle cx="-20" cy="6" r="5.5" fill="url(#archGold)"/>
+      <circle cx="20" cy="6" r="5.5" fill="url(#archGold)"/>
+      <circle cx="0" cy="14" r="6.5" fill="url(#archGold)"/>
+
+      <!-- Lower palmette base -->
+      <path d="M 0 42 C -30 65 -50 95 0 115 C 50 95 30 65 0 42 Z" fill="url(#archGold)" opacity="0.95"/>
+      <circle cx="0" cy="78" r="3.5" fill="#720F23"/>
+    </g>
+
+    <!-- Bottom ground line with rosettes -->
+    <line x1="30" y1="340" x2="570" y2="340" stroke="url(#archGold)" stroke-width="2"/>
+    <circle cx="300" cy="340" r="6" fill="url(#archGold)"/>
+    <circle cx="180" cy="340" r="4" fill="url(#archGold)"/>
+    <circle cx="420" cy="340" r="4" fill="url(#archGold)"/>
+  </g>
+</svg>
