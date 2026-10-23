@@ -46,6 +46,9 @@ function applyConfigData(config) {
   if (config.greetingTitle && document.getElementById('greetingTitleDisplay')) {
     document.getElementById('greetingTitleDisplay').textContent = config.greetingTitle;
   }
+  if (config.invitationText && document.getElementById('invitationMainText')) {
+    document.getElementById('invitationMainText').innerHTML = config.invitationText.replace(/\n/g, '<br>');
+  }
   if (config.fullDateText && document.getElementById('dateTextDisplay')) {
     document.getElementById('dateTextDisplay').textContent = config.fullDateText.toUpperCase();
   }
