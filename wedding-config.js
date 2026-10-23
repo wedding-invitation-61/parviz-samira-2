@@ -37,7 +37,7 @@ window.WEDDING_CONFIG = {
     {
       time: "19:00",
       title: "Танцы и веселье",
-      desc: "Первый танец молодых, музыкальная программа и танцы"
+      desc: "Музыкальная программа и танцы"
     }
   ],
 
@@ -61,16 +61,9 @@ window.WEDDING_CONFIG = {
 
   // Интеграция с Google Таблицей:
   // Разверните скрипт Google Apps Script и вставьте его URL сюда:
-  googleScriptUrl: "",
+  googleScriptUrl: "https://script.google.com/macros/s/AKfycby6USKxD2YbRFKSyPLvCn_YoBvo6qyhhcs1mmodIG9l6hgeLv5gOW1r6YuzmETM9bHM5Q/exec",
   // Номер WhatsApp для резервной отправки (если потребуется):
   rsvpWhatsAppNumber: "79990000000",
-
-  // Фотографии молодых
-  photos: {
-    cover: "assets/images/parviz_samira_1.jpg",
-    coupleStory: "assets/images/parviz_samira_2.jpg",
-    cakeNight: "assets/images/parviz_samira_cake.jpg"
-  },
 
   // Музыкальный трек (Amr Diab - Tamally Maak)
   audioTrack: "assets/audio/wedding_music.mp3"

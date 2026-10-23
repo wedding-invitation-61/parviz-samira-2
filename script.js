@@ -65,19 +65,6 @@ function applyConfigData(config) {
   if (mapBtn && config.mapLink) {
     mapBtn.href = config.mapLink;
   }
-
-  // Фотографии
-  if (config.photos) {
-    if (config.photos.cover && document.getElementById('coverPhoto')) {
-      document.getElementById('coverPhoto').src = config.photos.cover;
-    }
-    if (config.photos.coupleStory && document.getElementById('coupleStoryPhoto')) {
-      document.getElementById('coupleStoryPhoto').src = config.photos.coupleStory;
-    }
-    if (config.photos.cakeNight && document.getElementById('cakeNightPhoto')) {
-      document.getElementById('cakeNightPhoto').src = config.photos.cakeNight;
-    }
-  }
 }
 
 // ------------------------------------------------------------
@@ -172,7 +159,7 @@ function initCountdown(year, month, day, hour = 17, minute = 30) {
 // Intersection Observer для плавной анимации появления текста и расписания
 // ------------------------------------------------------------
 function initScrollAnimations() {
-  const reveals = document.querySelectorAll('.reveal-on-scroll');
+  const reveals = document.querySelectorAll('.reveal-on-scroll, .flower-bloom-on-scroll');
   const timelineItems = document.querySelectorAll('.reveal-timeline');
   
   if (!('IntersectionObserver' in window)) {
@@ -216,6 +203,7 @@ function initSparklesCanvas() {
   const particleCount = 28;
 
   for (let i = 0; i < particleCount; i++) {
+    const isRuby = Math.random() < 0.25;
     particles.push({
       x: Math.random() * width,
       y: Math.random() * height,
@@ -224,7 +212,8 @@ function initSparklesCanvas() {
       speedY: -Math.random() * 0.6 - 0.2,
       opacity: Math.random() * 0.7 + 0.2,
       pulseSpeed: Math.random() * 0.02 + 0.01,
-      angle: Math.random() * Math.PI * 2
+      angle: Math.random() * Math.PI * 2,
+      isRuby: isRuby
     });
   }
 
@@ -248,8 +237,13 @@ function initSparklesCanvas() {
       ctx.save();
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(212, 175, 55, ${currentOpacity})`;
-      ctx.shadowColor = 'rgba(255, 230, 150, 0.9)';
+      if (p.isRuby) {
+        ctx.fillStyle = `rgba(180, 24, 50, ${currentOpacity * 0.85})`;
+        ctx.shadowColor = 'rgba(220, 50, 80, 0.9)';
+      } else {
+        ctx.fillStyle = `rgba(212, 175, 55, ${currentOpacity})`;
+        ctx.shadowColor = 'rgba(255, 230, 150, 0.9)';
+      }
       ctx.shadowBlur = 6;
       ctx.fill();
       ctx.restore();

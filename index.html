@@ -7,7 +7,7 @@
   <meta name="description" content="Приглашение на свадебное торжество Парвиза и Самиры | 29 октября 2026">
   
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
 
   <!-- Google Fonts: Luxury, Highly Readable Cyrillic Serif & Modern Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,21 +37,27 @@
   <main class="invitation-wrapper">
 
     <!-- ========================================== -->
-    <!-- ЭКРАН 1: ОБЛОЖКА (HERO COVER)              -->
+    <!-- ЭКРАН 1: ОБЛОЖКА (ТАДЖИКСКИЙ ОРНАМЕНТ)     -->
     <!-- ========================================== -->
     <section class="story-screen screen-cover" id="screen-cover">
-      <div class="photo-container hero-photo">
-        <img id="coverPhoto" src="assets/images/parviz_samira_1.jpg" alt="Парвиз и Самира" class="main-portrait-img">
-        <div class="photo-overlay-top"></div>
-        <div class="photo-overlay-bottom"></div>
+      <div class="ornament-hero-container">
+        <!-- Floating Solar Girih Star in Background -->
+        <div class="hero-bg-medallion spin-very-slow">
+          <img src="assets/ornaments/tajik_girih_solar.svg" alt="Гирих солнечный узор">
+        </div>
+
+        <!-- Corner Islimi Vine Ornaments -->
+        <div class="corner-ornament top-left-subtle">
+          <img src="assets/ornaments/tajik_corner_islimi.svg" alt="Ислими орнамент">
+        </div>
         
-        <!-- Tajik Suzani Medallion Badge -->
-        <div class="ornament-floating-badge">
-          <img src="assets/ornaments/tajik_medallion.svg" alt="Орнамент" class="badge-medallion spin-very-slow">
+        <!-- Central Grand Pomegranate & Zarduzi Emblem -->
+        <div class="hero-pomegranate-crest-wrap">
+          <img src="assets/ornaments/tajik_hero_pomegranate.svg" alt="Таджикский орнамент Анор" class="hero-pomegranate-crest pulse-ornament">
         </div>
       </div>
 
-      <!-- Golden Wave Divider Under Photo -->
+      <!-- Golden Wave Divider Under Ornament -->
       <div class="wave-divider-wrapper">
         <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
       </div>
@@ -83,11 +89,6 @@
         <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg flipped-wave wave-shimmer">
       </div>
 
-      <!-- Traditional Tajik Suzani Medallion in Top Right Corner -->
-      <div class="corner-ornament top-right reveal-on-scroll">
-        <img src="assets/ornaments/tajik_medallion.svg" alt="Таджикский орнамент" class="medallion-img spin-slow">
-      </div>
-
       <div class="screen-content unified-invitation-content">
         <!-- Pomegranate Branch Motif (Symbol of Barakat & Love) -->
         <div class="motif-wrapper reveal-on-scroll">
@@ -103,10 +104,10 @@
           <p class="caps-bold">РОДНЫЕ И БЛИЗКИЕ!</p>
         </div>
 
-        <!-- 3. Пионы и розы + Золотая волна -->
-        <div class="mid-floral-ribbon reveal-on-scroll delay-2">
-          <div class="mid-peonies-wrap">
-            <img src="assets/images/peonies_bouquet.jpg" alt="Пионы и розы" class="peonies-img flower-breathe">
+        <!-- 3. Пионы и розы (Анимация расцветания) + Золотая волна -->
+        <div class="mid-floral-ribbon">
+          <div class="mid-peonies-wrap flower-bloom-on-scroll">
+            <img src="assets/images/peonies_bouquet.jpg" alt="Пионы и розы" class="peonies-img">
           </div>
           <div class="wave-divider-wrapper wave-inline">
             <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
@@ -121,7 +122,7 @@
         </p>
 
         <!-- 5. Парвиз & Самира -->
-        <div class="couple-names-wrap reveal-on-scroll delay-3">
+        <div class="couple-names-wrap reveal-on-scroll delay-2">
           <h2 class="names-readable-display" id="coupleNamesDisplay">Парвиз & Самира</h2>
           <!-- 6. Разделитель -->
           <div class="ornament-divider">
@@ -130,15 +131,7 @@
         </div>
       </div>
 
-      <!-- 7. Bottom Couple Photo with Wave -->
-      <div class="wave-divider-wrapper wave-middle">
-        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
-      </div>
-      <div class="bottom-photo-frame reveal-on-scroll delay-2">
-        <img id="coupleStoryPhoto" src="assets/images/parviz_samira_2.jpg" alt="Парвиз и Самира" class="framed-photo-img">
-      </div>
-
-      <!-- Bottom Golden Wave -->
+      <!-- Golden Wave Divider connecting smoothly to Ceremony Date without empty void -->
       <div class="wave-divider-wrapper wave-bottom">
         <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
       </div>
@@ -146,14 +139,9 @@
 
 
     <!-- ========================================== -->
-    <!-- ЭКРАН 4: ТОРЖЕСТВО, ДАТА И КАЛЕНДАРЬ       -->
+    <!-- ЭКРАН 3: ТОРЖЕСТВО, ДАТА И КАЛЕНДАРЬ       -->
     <!-- ========================================== -->
     <section class="story-screen screen-date" id="screen-date">
-      <!-- Top Wave Divider -->
-      <div class="wave-divider-wrapper wave-top">
-        <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg flipped-wave wave-shimmer">
-      </div>
-
       <div class="screen-content date-calendar-content">
         <h2 class="section-readable-heading reveal-on-scroll" id="ceremonyTitle">Торжество</h2>
         
@@ -204,9 +192,9 @@
         </div>
       </div>
 
-      <!-- Traditional Suzani Rosette (Variation 2) at Bottom Left -->
+      <!-- Traditional Tajik Girih Star (Solar Rosette) at Bottom Left -->
       <div class="corner-ornament bottom-left reveal-on-scroll">
-        <img src="assets/ornaments/tajik_rosette_2.svg" alt="Орнамент" class="medallion-img spin-slow">
+        <img src="assets/ornaments/tajik_girih_solar.svg" alt="Гирих узор" class="medallion-img spin-slow">
       </div>
 
       <!-- Bottom Wave -->
@@ -287,19 +275,19 @@
             </div>
             <div class="timeline-info-card">
               <h3 class="timeline-title">Танцы и веселье</h3>
-              <p class="timeline-desc">Первый танец молодых, музыкальная программа и танцы</p>
+              <p class="timeline-desc">Музыкальная программа и танцы</p>
             </div>
           </div>
 
         </div>
       </div>
 
-      <!-- Atmospheric Night Photo with Cake & Sparklers -->
+      <!-- Традиционная розетка сюзане -->
       <div class="wave-divider-wrapper wave-middle">
         <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
       </div>
-      <div class="bottom-photo-frame cake-frame reveal-on-scroll delay-2">
-        <img id="cakeNightPhoto" src="assets/images/parviz_samira_cake.jpg" alt="Праздничный вечер" class="framed-photo-img">
+      <div class="bottom-ornament-panel schedule-rosette-panel reveal-on-scroll delay-2">
+        <img src="assets/ornaments/tajik_rosette_2.svg" alt="Таджикский орнамент сюзане" class="schedule-rosette-img spin-very-slow">
       </div>
 
       <div class="wave-divider-wrapper wave-bottom">
@@ -309,12 +297,12 @@
 
 
     <!-- ========================================== -->
-    <!-- ЭКРАН 6: МЕСТО ПРОВЕДЕНИЯ, КАРТА И АНКЕТА   -->
+    <!-- ЭКРАН 5: МЕСТО ПРОВЕДЕНИЯ, КАРТА И АНКЕТА   -->
     <!-- ========================================== -->
     <section class="story-screen screen-venue" id="screen-venue">
-      <!-- Top Left Traditional Medallion -->
+      <!-- Top Left Traditional Corner Islimi Vine -->
       <div class="corner-ornament top-left reveal-on-scroll">
-        <img src="assets/ornaments/tajik_medallion.svg" alt="Орнамент" class="medallion-img spin-slow">
+        <img src="assets/ornaments/tajik_corner_islimi.svg" alt="Ислими орнамент" class="corner-islimi-img">
       </div>
 
       <div class="screen-content venue-content">
@@ -423,9 +411,9 @@
 
       </div>
 
-      <!-- Bottom Peonies & Golden Wave -->
-      <div class="floral-bottom-container reveal-on-scroll">
-        <img src="assets/images/peonies_bouquet.jpg" alt="Пионы" class="peonies-img flower-breathe">
+      <!-- Bottom Peonies (Анимация расцветания) & Golden Wave -->
+      <div class="floral-bottom-container flower-bloom-on-scroll">
+        <img src="assets/images/peonies_bouquet.jpg" alt="Пионы и розы" class="peonies-img">
       </div>
       <div class="wave-divider-wrapper wave-bottom">
         <img src="assets/ornaments/gold_wave.svg" alt="Золотая волна" class="gold-wave-svg wave-shimmer">
