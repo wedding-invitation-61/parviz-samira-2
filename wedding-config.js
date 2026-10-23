@@ -8,7 +8,7 @@ window.WEDDING_CONFIG = {
   groomName: "Парвиз",
   brideName: "Самира",
   coupleTitle: "Парвиз & Самира",
-  celebrationType: "Свадебное торжество",
+  celebrationType: "Келин салом",
 
   // Дата и время
   weddingYear: 2026,
@@ -46,7 +46,7 @@ window.WEDDING_CONFIG = {
   greetingText: "ДОРОГИЕ И УВАЖАЕМЫЕ\nРОДНЫЕ И БЛИЗКИЕ!",
 
   // Главный текст приглашения (Экран 3)
-  invitationText: "С ИСКРЕННЕЙ РАДОСТЬЮ В СЕРДЦАХ\nПРИГЛАШАЕМ ВАС РАЗДЕЛИТЬ С НАМИ\nСАМЫЙ СЧАСТЛИВЫЙ ДЕНЬ СОЗДАНИЯ НАШЕЙ СЕМЬИ!",
+  invitationText: "С ИСКРЕННЕЙ РАДОСТЬЮ В СЕРДЦАХ\nПРИГЛАШАЕМ ВАС РАЗДЕЛИТЬ С НАМИ\nНАШ САМЫЙ СЧАСТЛИВЫЙ ДЕНЬ!",
   
   // Место проведения
   venueTitle: "Место проведения",
@@ -60,11 +60,10 @@ window.WEDDING_CONFIG = {
   blessingText: "Будем счастливы разделить этот радостный день вместе с вами!",
 
   // Интеграция с Google Таблицей:
-  // Разверните скрипт Google Apps Script и вставьте его URL сюда:
   googleScriptUrl: "https://script.google.com/macros/s/AKfycby6USKxD2YbRFKSyPLvCn_YoBvo6qyhhcs1mmodIG9l6hgeLv5gOW1r6YuzmETM9bHM5Q/exec",
   // Номер WhatsApp для резервной отправки (если потребуется):
   rsvpWhatsAppNumber: "79990000000",
 
-  // Музыкальный трек (Amr Diab - Tamally Maak)
+  // Музыкальный трек
   audioTrack: "assets/audio/wedding_music.mp3"
 };
