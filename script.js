@@ -1,5 +1,4 @@
 // ============================================================
-// СВАДЕБНОЕ ПРИГЛАСИТЕЛЬНОЕ | СЦЕНАРИЙ И ИНТЕРАКТИВ
 // ПАРВИЗ И САМИРА | 29 ОКТЯБРЯ 2026
 // ============================================================
 
@@ -111,7 +110,7 @@ function generateCalendar(year, month, weddingDay) {
       // Вставляем пульсирующее орнаментальное кольцо
       const ringImg = document.createElement('img');
       ringImg.src = 'assets/ornaments/calendar_ring.svg';
-      ringImg.alt = 'День свадьбы';
+      ringImg.alt = 'Келин салом';
       ringImg.className = 'day-wedding-ring';
       dayCell.appendChild(ringImg);
     }
@@ -423,7 +422,7 @@ function initInlineRsvpSurvey(config) {
     successAlert.style.display = 'block';
 
     if (attendance === 'Буду') {
-      successDesc.textContent = `Дорогой(ая) ${name}, ваш ответ успешно записан (${guests} чел.)! Будем бесконечно рады видеть вас на нашей свадьбе!`;
+      successDesc.textContent = `Дорогой(ая) ${name}, ваш ответ успешно записан (${guests} чел.)! Будем бесконечно рады видеть вас!`;
     } else {
       successDesc.textContent = `Дорогой(ая) ${name}, благодарим за ваш ответ! Очень жаль, что вы не сможете быть, но мы ценим ваше внимание!`;
     }
@@ -448,8 +447,8 @@ function initCalendarExport(config) {
     const dtStart = `${year}${month}${day}T173000`;
     const dtEnd = `${year}${month}${day}T235900`;
 
-    const title = `Свадебное торжество: ${config.coupleTitle || 'Парвиз и Самира'}`;
-    const description = `Свадьба ${config.coupleTitle}. Ресторан «Летний дворец».`;
+    const title = `Келин салом: ${config.coupleTitle || 'Парвиз и Самира'}`;
+    const description = `Келин салом ${config.coupleTitle}. Ресторан «Летний дворец».`;
     const location = `${config.venueName || 'Ресторан «Летний дворец»'}, ${config.venueAddress || 'село Чалтырь, Ростовская улица, 104'}`;
 
     const icsContent = [
